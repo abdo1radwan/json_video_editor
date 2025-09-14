@@ -1,0 +1,320 @@
+{
+  "assets": {
+    "videos": [
+      {
+        "name": "intro",
+        "path": "assets/intro.mp4"
+      },
+      {
+        "name": "main",
+        "path": "assets/main.mp4"
+      },
+      {
+        "name": "outro",
+        "path": "assets/outro.mp4"
+      },
+      {
+        "name": "overlay",
+        "path": "assets/overlay.mp4"
+      }
+    ],
+    "gifs": [
+      {
+        "name": "celebration",
+        "path": "assets/celebration.gif"
+      },
+      {
+        "name": "sticker",
+        "path": "assets/sticker.gif"
+      }
+    ],
+    "images": [
+      {
+        "name": "background",
+        "path": "assets/background.png"
+      },
+      {
+        "name": "logo",
+        "path": "assets/logo.png"
+      },
+      {
+        "name": "watermark",
+        "path": "assets/watermark.png"
+      },
+      {
+        "name": "frame",
+        "path": "assets/frame.png"
+      }
+    ],
+    "audios": [
+      {
+        "name": "music",
+        "path": "assets/music.wav"
+      }
+    ]
+  },
+  "editing": [
+    {
+      "asset": "intro",
+      "start_time": 0,
+      "end_time": 5,
+      "effects": [
+        {
+          "type": "fadein",
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "asset": "main",
+      "start_time": 5,
+      "end_time": 20,
+      "effects": [
+        {
+          "type": "color_adjust",
+          "brightness": 1.1,
+          "contrast": 1.05
+        }
+      ]
+    },
+    {
+      "asset": "outro",
+      "start_time": 20,
+      "end_time": 25,
+      "effects": [
+        {
+          "type": "fadeout",
+          "duration": 2
+        }
+      ]
+    }
+  ],
+  "overlays": [
+    {
+      "type": "image",
+      "asset": "background",
+      "start_time": 0,
+      "end_time": 25,
+      "position": "center",
+      "size": [1.0, 1.0],
+      "opacity": 0.3
+    },
+    {
+      "type": "image",
+      "asset": "logo",
+      "start_time": 0,
+      "end_time": 25,
+      "position": [0.05, 0.05],
+      "size": [0.15, 0.15],
+      "opacity": 0.9
+    },
+    {
+      "type": "image",
+      "asset": "watermark",
+      "start_time": 0,
+      "end_time": 25,
+      "position": "bottom-right",
+      "size": [0.2, 0.1],
+      "opacity": 0.7
+    },
+    {
+      "type": "video",
+      "asset": "overlay",
+      "start_time": 8,
+      "end_time": 12,
+      "position": [0.7, 0.1],
+      "size": [0.25, 0.25],
+      "opacity": 0.9,
+      "effects": [
+        {
+          "type": "fadein",
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "type": "gif",
+      "asset": "sticker",
+      "start_time": 2,
+      "end_time": 8,
+      "position": [0.1, 0.7],
+      "size": [0.15, 0.15],
+      "animation": {
+        "type": "bounce",
+        "duration": 1,
+        "height": 20
+      }
+    },
+    {
+      "type": "gif",
+      "asset": "celebration",
+      "start_time": 18,
+      "end_time": 23,
+      "position": [0.8, 0.8],
+      "size": [0.2, 0.2],
+      "animation": {
+        "type": "rotate",
+        "duration": 5,
+        "angle": 360
+      }
+    },
+    {
+      "type": "image",
+      "asset": "frame",
+      "start_time": 5,
+      "end_time": 20,
+      "position": "center",
+      "size": [1.0, 1.0],
+      "opacity": 0.8
+    },
+    {
+      "type": "text",
+      "text": "Welcome to My Video!",
+      "start_time": 1,
+      "end_time": 4,
+      "position": "center",
+      "font": "Arial.ttf",
+      "font_size": 70,
+      "color": "white",
+      "background": {
+        "color": "black",
+        "opacity": 0.7
+      },
+      "animation": {
+        "type": "typewriter",
+        "duration": 2
+      },
+      "effects": [
+        {
+          "type": "fadein",
+          "duration": 0.5
+        },
+        {
+          "type": "fadeout",
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Main Content Here",
+      "start_time": 6,
+      "end_time": 10,
+      "position": [0.1, 0.1],
+      "font": "Arial.ttf",
+      "font_size": 50,
+      "color": "yellow",
+      "animation": {
+        "type": "scroll",
+        "direction": "left_to_right",
+        "duration": 4
+      },
+      "effects": [
+        {
+          "type": "glow",
+          "color": "orange",
+          "radius": 5
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Special Feature!",
+      "start_time": 12,
+      "end_time": 16,
+      "position": "top-center",
+      "font": "Arial.ttf",
+      "font_size": 60,
+      "color": "gold",
+      "animation": {
+        "type": "bounce",
+        "duration": 1,
+        "height": 30
+      }
+    },
+    {
+      "type": "text",
+      "text": "Thanks for Watching!",
+      "start_time": 21,
+      "end_time": 24,
+      "position": "center",
+      "font": "Arial.ttf",
+      "font_size": 80,
+      "color": "white",
+      "background": {
+        "color": "red",
+        "opacity": 0.8
+      },
+      "effects": [
+        {
+          "type": "fadein",
+          "duration": 1
+        },
+        {
+          "type": "fadeout",
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "© 2024 My Channel",
+      "start_time": 23,
+      "end_time": 25,
+      "position": "bottom-center",
+      "font": "Arial.ttf",
+      "font_size": 24,
+      "color": "white",
+      "opacity": 0.7
+    }
+  ],
+  "audio": [
+    {
+      "asset": "music",
+      "start_time": 0,
+      "volume": 0.5,
+      "fade_in": 2,
+      "fade_out": 2
+    }
+  ],
+  "composites": [
+    {
+      "type": "picture_in_picture",
+      "main_asset": "main",
+      "pip_asset": "overlay",
+      "pip_size": [0.3, 0.3],
+      "pip_position": [0.65, 0.65],
+      "start_time": 10,
+      "end_time": 15,
+      "effects": [
+        {
+          "type": "border",
+          "color": "white",
+          "width": 3
+        }
+      ]
+    },
+    {
+      "type": "split_screen",
+      "left_asset": "main",
+      "right_asset": "overlay",
+      "start_time": 15,
+      "end_time": 18,
+      "transition": {
+        "type": "slide",
+        "direction": "horizontal",
+        "duration": 0.5
+      }
+    }
+  ],
+  "global_settings": {
+    "output_resolution": [1920, 1080],
+    "fps": 30,
+    "video_codec": "libx264",
+    "audio_codec": "aac",
+    "quality": "high",
+    "default_font": "Arial.ttf",
+    "default_text_color": "white",
+    "default_background_color": "black"
+  }
+}
